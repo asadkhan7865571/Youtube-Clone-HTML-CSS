@@ -34,6 +34,12 @@
     border-color: rgb(212, 207, 207);
     border-radius: 2px;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    outline: none;
+    width: 0;
+}
+.youtube-search:focus{
+    border: 1px solid;
+    box-shadow: 0 0 3px rgba(0, 119, 204, 0.5);
 }
 .youtube-search::placeholder{
     font-family: Roboto, Arial;
@@ -68,11 +74,13 @@
 }
 
 .right-section{
-    width: 200px;
+    width: 180px;
     margin-left: 35px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
     
 }
 .upload-icon{
@@ -86,4 +94,5 @@
 }
 .current-user-picture{
     height: 32px;
+    border-radius: 16px;
 }
