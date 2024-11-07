@@ -5,6 +5,12 @@ p{
 button{
     cursor: pointer;
 }
+div{
+    cursor: pointer;
+}
 body{
     margin: 0;
+    margin-bottom: 3000px;
+    padding-top: 80px;
+    padding-left: 72px;
 }

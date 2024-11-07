@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/Styles/video.css">
     <link rel="stylesheet" href="/Styles/general.css">
     <link rel="stylesheet" href="/Styles/header.css">
+    <link rel="stylesheet" href="/Styles/sidebar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -21,8 +22,8 @@
     <div class="left-section">
     <img class="hamburger-menu" src="/Icons/hamburger-menu.svg">
     <img class="youtube-logo" src="/Icons/youtube-logo.svg">
-
     </div>
+   
     <div class="middle-section">
         <input class="youtube-search" type="text" placeholder="Search">
         <button class="search-button">
@@ -35,10 +36,18 @@
     <div class="right-section">
        <img class="upload-icon" src="/Icons/upload.svg">
        <img class="youtube-apps-icon" src="/Icons/youtube-apps.svg">
-       <img class="notifications-icon" src="/Icons/notifications.svg">
+
+       <div class="notifications-icon-container">
+         <img class="notifications-icon" src="/Icons/notifications.svg">
+         <div class="notifications-count">3</div>
+       </div>
+       
        <img class="current-user-picture" src="/Thumbnails/my-channel.jpeg">
     </div>
-    
+</div> <!--Header Div-->
+
+<div class="sidebar">
+    sidebar
 </div>
 
 
@@ -47,8 +56,12 @@
 
 
     <div>
-        <img class="sunder-thumbnail" src="/Thumbnails/Sunder Pichai.webp">
+        <div class="sunder-thumbnail-div">
+            <img class="sunder-thumbnail" src="/Thumbnails/Sunder Pichai.webp">
 
+            <div class="time-stamp">14:20</div>
+        </div>
+        
         <div class="title-profile-grid">
             <div>
                 <img class="channel-profile" src="/Thumbnails/channel profile.jpeg">
@@ -57,14 +70,19 @@
                 <p class="title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
                 <p class="author">Marques Brownlee</p>
                 <p class="stats">3.4M views · 6 months ago</p>
-            </div>
-        </div>
-     </div> <!--Grid-divs-->
+            </div> 
+        </div> <!--title-profile-grid-->
+    </div>
 
 
 
      <div>
-        <img class="sunder-thumbnail" src="/Thumbnails/markplier.webp">
+        <div class="sunder-thumbnail-div">
+            <img class="sunder-thumbnail" src="/Thumbnails/markplier.webp">
+            <div class="time-stamp">8:22</div>
+
+        </div>
+       
 
         <div class="title-profile-grid">
             <div>
@@ -81,7 +99,12 @@
 
 
      <div>
+
+    <div class="sunder-thumbnail-div">
         <img class="sunder-thumbnail" src="/Thumbnails/Sniper wolf Thumbnail.webp">
+        <div class="time-stamp">9:13</div>
+
+    </div>
 
         <div class="title-profile-grid">
             <div>
@@ -96,7 +119,12 @@
      </div> <!--Grid-divs-->
 
      <div>
+
+    <div class="sunder-thumbnail-div">
         <img class="sunder-thumbnail" src="/Thumbnails/3x+1 thumbnail.webp">
+        <div class="time-stamp">22:09</div>
+
+    </div>
 
         <div class="title-profile-grid">
             <div>
@@ -112,7 +140,11 @@
 
 
      <div>
+
+    <div class="sunder-thumbnail-div">
         <img class="sunder-thumbnail" src="/Thumbnails/kadanes thumbnail.webp">
+        <div class="time-stamp">11:17</div>
+    </div>
 
         <div class="title-profile-grid">
             <div>
@@ -128,7 +160,11 @@
 
 
      <div>
+        <div class="sunder-thumbnail-div">
         <img class="sunder-thumbnail" src="/Thumbnails/Mre beast thumbnail.webp">
+        <div class="time-stamp">19:59</div>
+
+    </div>
 
         <div class="title-profile-grid">
             <div>

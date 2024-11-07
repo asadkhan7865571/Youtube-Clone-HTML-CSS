@@ -40,3 +40,16 @@
     border-width: 1px;
     
 }
+.sunder-thumbnail-div{
+    position: relative;
+}
+.time-stamp{
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    background-color: black;
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    padding: 3px 3px 3px 3px;
+}
