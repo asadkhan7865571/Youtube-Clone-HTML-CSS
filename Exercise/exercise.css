@@ -1,0 +1,45 @@
+.thumbnail-container{
+position: relative;
+border: soli;
+width: 260px;
+height: 141px;
+}
+.time-stamp{
+    position: absolute;
+    right: 7px;
+    bottom: 5px;
+    background-color: black;
+    color: white;
+    font-family: roboto, arial;
+    font-size: 12px;
+    padding: 3px 2px 3px 2px;
+}
+
+.thumbnail{
+    height: 141px;
+    width: 260px;
+    object-fit: contain;
+   
+}
+.channel-profile-container{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+
+.channel-profile{
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 5px;
+
+}
+.title{
+    font-family: roboto, arial;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 7px;
+    margin-left: 3px;
+    width: 250px;
+
+}
