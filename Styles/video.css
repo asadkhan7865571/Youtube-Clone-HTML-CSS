@@ -6,6 +6,33 @@
 
 }
 
+@media (max-width: 750px){
+    .mainpage-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+    .mainpage-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+@media (min-width: 1000px){
+    .mainpage-grid{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+
+@media (min-width: 1500px){
+  .mainpage-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+
+
 .sunder-thumbnail{
     width: 100%;
 }
