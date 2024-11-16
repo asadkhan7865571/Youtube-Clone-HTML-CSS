@@ -1,18 +1,15 @@
-p{
-    font-family: Roboto, Arial, sans-serif;
-    margin: 0;
-}
-button{
-    cursor: pointer;
-}
-div{
-    cursor: pointer;
-}
 body{
+    font-family: roboto, arial;
     margin: 0;
-    margin-bottom: 3000px;
-    padding-top: 80px;
-    padding-left: 96px;
-    padding-right: 24px;
-    background-color: rgb(247, 244, 244);
+    padding-top: 85px;
+    padding-left: 80px;
+    padding-bottom: 2000px;
+   
+   
+}
+p{
+    margin: 0;
+}
+.flexbox-main-container{
+
 }

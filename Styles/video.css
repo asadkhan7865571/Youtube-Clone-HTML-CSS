@@ -1,93 +1,63 @@
-.mainpage-grid{
+.flexbox-main-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 40px;
-    column-gap: 17px;
-
+    column-gap: 15px;
+    row-gap: 45px;
 }
 
-@media (max-width: 750px){
-    .mainpage-grid{
-        grid-template-columns: 1fr 1fr;
+@media (max-width: 750px) {
+    .flexbox-main-container{
+     grid-template-columns: 1fr 1fr ;
     }
-}
+ }
 
-@media (min-width: 751px) and (max-width: 999px){
-    .mainpage-grid{
-        grid-template-columns: 1fr 1fr 1fr;
+
+ @media (max-width: 603px) {
+    .flexbox-main-container{
+     grid-template-columns: 1fr;
     }
-}
-
-
-@media (min-width: 1000px){
-    .mainpage-grid{
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-  }
-
-@media (min-width: 1500px){
-  .mainpage-grid{
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  }
-}
+ }
 
 
 
-.sunder-thumbnail{
+.thumbnail{
     width: 100%;
 }
 .channel-profile{
-    width: 36px;
-    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
 }
-.channel-profile-div{
-    border-style: soli;
-    border-width: 1px;
-    width: 36px;
-
-}
-.text-div{
-    border-style: soli;
-    border-width: 1px;
-    margin-left: -8px;
+.channnelprofile-grid-container{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 7px;
 }
 .title{
-    margin-top: 2px;
+    font-weight: 500;
     font-size: 14px;
-    font-weight: 500 ;
-    line-height: 20px;
-    
+    width: 100%;
+    margin-bottom: 10px;
 }
-.stats{
-    font-size: 12px;
-    color: #606060;
-
-}
-.author {
-    font-size: 12px;
-    color: #606060;
-    margin-top: 10px;
+.author{
+    font-size: 13px;
+    color: rgb(80, 76, 76);
     margin-bottom: 4px;
 }
-.title-profile-grid{
-    display: grid;
-    grid-template-columns: 54px 1fr;
-    margin-top: 6px;
-    border-style: soli;
-    border-color: black;
-    border-width: 1px;
-    
+.stats{
+    font-size: 13px;
+    color: rgb(80, 76, 76);
 }
-.sunder-thumbnail-div{
-    position: relative;
+.thumbnail-div{
+position: relative;
 }
 .time-stamp{
     position: absolute;
+    right: 3px;
     bottom: 10px;
-    right: 5px;
-    background-color: black;
     color: white;
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 13px;
-    padding: 3px 3px 3px 3px;
+    background-color: black;
+    font-family: roboto, arial;
+    font-size: 12px;
+    padding: 2px 4px 2px 4px;
 }
