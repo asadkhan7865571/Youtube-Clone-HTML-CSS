@@ -5,18 +5,23 @@
     row-gap: 45px;
 }
 
-@media (max-width: 750px) {
+   @media(max-width: 809px){
     .flexbox-main-container{
-     grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
     }
- }
+   }
 
-
- @media (max-width: 603px) {
+   @media(max-width: 553px){
     .flexbox-main-container{
-     grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
- }
+   }
+
+   @media(min-width: 1350px){
+    .flexbox-main-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+   }
 
 
 

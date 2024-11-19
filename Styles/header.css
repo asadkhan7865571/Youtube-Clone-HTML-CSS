@@ -20,16 +20,16 @@
 .left-section{
     display: flex;
     align-items: center;
-    
     height: 60px;
     border: 1px soli black;
+
     
 }
 
 .hamburger-menu{
     height: 24px;
     width: 24px;
-    margin-left: 30px;
+    margin-left: 24px;
     margin-right: 25px;
 }
 .youtube-logo{

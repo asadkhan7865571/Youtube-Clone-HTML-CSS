@@ -2,14 +2,21 @@ body{
     font-family: roboto, arial;
     margin: 0;
     padding-top: 85px;
-    padding-left: 80px;
+    padding-left: 95px;
     padding-bottom: 2000px;
+    padding-right: 25px;
    
    
 }
 p{
     margin: 0;
 }
-.flexbox-main-container{
-
+div{
+    cursor: pointer;
+}
+.link-icon{
+    width: 1px;
+}
+a{
+    text-decoration: none;
 }
